@@ -3,7 +3,7 @@ function weatherInfo() {
     document.querySelector('#search-btn').onclick = () => {
         // запрос
         const searchValue = document.querySelector('#search-area').value;
-        const request = `http://api.openweathermap.org/data/2.5/weather?q=${searchValue}&appid=32dda4a23cf5093afca2f2f086c16833`;
+        const request = `https://api.openweathermap.org/data/2.5/weather?q=${searchValue}&appid=32dda4a23cf5093afca2f2f086c16833`;
 
         if (searchValue.trim() != '') {
             // обработчик
