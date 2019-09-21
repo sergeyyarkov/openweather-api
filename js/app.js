@@ -7,7 +7,7 @@ function weatherInfo() {
         // обработчик
         function showData(data) {
             const weatherCard = document.querySelector('.weather-card'),
-                titleCard = document.querySelector('.title-desctiption'),
+                titleCard = document.querySelector('.title-description'),
                 titleData = document.querySelector('.weather-card__title h2'),
                 tempData = document.querySelector('.weather-card__temp p'),
                 descData = document.querySelector('.weather-card__description p'),
