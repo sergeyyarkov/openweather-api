@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    background-color: #E1E1E1;
+    height: 1px;
+    border: none;
+    margin: 0;
+}
+.title-desctiption h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 2rem;
+    display: none;
+}
+.weather {
+    display: flex;
+    justify-content: center;
+}
+.weather-card {
+    border: 2px solid #E1E1E1;
+    min-width: 300px;
+    min-height: 390px;
+    text-align: center;
+    padding: 35px 50px 35px 50px;
+    margin-top: 3rem;
+    border-radius: 3px;
+    display: none;
+}
+.weather-card__title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.weather-card__temp p {
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.weather-card__description p {
+    color: #858585;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.weather-card__img {
+    margin-top: 10px;
+}
+.weather-card__wind {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #858585;
+    font-weight: 600;
+}
+.weather-card__humidity {
+    font-size: 12px;
+    color: #858585;
+    font-weight: 600;
+}
+/* Поиск */
+.search {
+    display: flex;
+    justify-content: center;
+}
+.search-area {
+    max-width: 500px;
+    width: 500px;
+}
+.search-area input {
+    width: 100%;
+    height: 35px;
+    border: 2px solid #E1E1E1;
+    border-radius: 3px;
+    padding: 5px;
+    padding-left: 10px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+.search-btn {
+    margin-left: 5px;
+    width: 80px;
+}
+.search-btn button {
+    height: 35px;
+    width: 100%;
+    background-color: #3E48A4;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    transition: all .2s;
+    outline: none;
+}
+.search-btn button:hover {
+    background-color: #616BC5;
+}
